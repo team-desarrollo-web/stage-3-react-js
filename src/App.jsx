@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 import './App.css';
+import Layout from './components/layout';
 
 const App = () => {
   return (
@@ -9,14 +10,9 @@ const App = () => {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Layout>
+        <p>This is a children</p>
+      </Layout>
       </header>
     </div>
   );
