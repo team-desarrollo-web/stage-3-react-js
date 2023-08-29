@@ -1,5 +1,7 @@
-import logo from './assets/logo.svg';
 import './App.css';
+import React from 'react';
+
+import logo from './assets/logo.svg';
 import Layout from './components/layout';
 
 const App = () => {
@@ -10,12 +12,12 @@ const App = () => {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-      <Layout>
-        <p>This is a children</p>
-      </Layout>
+        <Layout>
+          <p>This is a children</p>
+        </Layout>
       </header>
     </div>
   );
-}
+};
 
 export default App;

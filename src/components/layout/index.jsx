@@ -1,17 +1,19 @@
-import React from 'react'
-import Header from '../shared/header'
-import Sidebar from '../shared/sidebar'
-import Footer from '../shared/footer'
+import React from 'react';
 
-const Layout = ({children}) => {
+import Footer from '../shared/footer';
+import Header from '../shared/header';
+import Sidebar from '../shared/sidebar';
+
+// eslint-disable-next-line react/prop-types
+const Layout = ({ children }) => {
   return (
-      <>
-          <Header />
-          <Sidebar />
-          {children}
-          <Footer/>
-      </>
-  )
-}
+    <>
+      <Header />
+      <Sidebar />
+      {children}
+      <Footer />
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
