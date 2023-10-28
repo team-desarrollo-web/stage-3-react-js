@@ -3,8 +3,8 @@ import React from 'react';
 
 import logo from './assets/logo.svg';
 import Layout from './components/layout';
-import Cart from './features/Cart';
-import Counter from './features/Counter';
+import Cart from './components/shared/Cart';
+import Counter from './components/shared/Cart/Counter';
 
 const App = () => {
   return (

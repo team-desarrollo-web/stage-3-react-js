@@ -3,13 +3,13 @@
 Before creating the PR, I made sure that:
 
 1. The branch was rebased with develop.
-2. All the commits have the corresponding format: `RL-XX: Capitalized description`.
+2. All the commits have the corresponding format: `PR-XX: Capitalized description`.
 3. I tested the app again before creating this PR.
 4. I assigned the PR to myself.
 5. I assigned the corresponding reviewers
 6. Remove the PR Check section
 
-# [RL-XXX: title-of-ticket](url_del_tablero/ticket)
+# [PR-XXX: title-of-ticket](url_del_tablero/ticket)
 
 > Ticket code, title of the ticket and as a hyperlink, the corresponding JIRA link
 
